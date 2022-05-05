@@ -4,7 +4,7 @@
 
 echo -e "enter the name of file :"
 read file_name 
-if [ -e $nagesh ]
+if [ $nagesh ]
 then
      echo "$file_name found" 
 else 
